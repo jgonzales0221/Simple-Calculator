@@ -12,7 +12,7 @@ def calculate_nums(num1, num2, op):
             else:
                 return num1 / num2
         except Exception as e:
-            return str(e)  # Return the error message as a string
+            return str(e)  
     else:
         return "Invalid operator"
 
